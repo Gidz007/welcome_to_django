@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
+
+# The homepage function.
 def homepage(request):
     # a context is a part of building your html.
     # it is called jinja. 
@@ -18,12 +20,23 @@ def homepage(request):
     }
     return render(request, "index.html", context)
 
+# The aboutpage function.
 def aboutpage(request):
     return render(request, "about.html" )
 
+# The contactpage fuction.
 def contactpage(request):
-    return render(request, "contacts.html")
+    reaction = "He is not going to school, he is .."
+    """Using a context as a dictionary having keys
+    to make changes on my Html page, 
+    """
+    context = {
+        "health" : reaction,
+        "numbers" : 2025
+    }
+    return render(request, "contacts.html", context)
 
+# The mepage function.
 def mepage(request):
     context = {
         "owner_name" : "Gideon", 
