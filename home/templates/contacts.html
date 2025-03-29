@@ -8,27 +8,53 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contacts</title>
+    <title>Title</title>
 </head>
 
 <body>
-    <p>He is going to school: {{health}}</p>
-    <table>
-        <tr>
-            <th>Year: </th>
-            <td>{{numbers}}</td>
-        </tr>
-        <tr>
-            <th>Year: </th>
-            <td>{{numbers}}</td>
-        </tr>
-        <tr>
-            <th>Year: </th>
-            <td>{{numbers}}</td>
-        </tr>
-    </table>
-
+    <nav class="p-5 bg-dark text-light">
+        <a href="/" class="text-light">home</a>
+        <a href="/leadership" class="text-light">leadership</a>
+        <a href="/contacts" class="text-light">contacts</a>
+        <a href="/students" class="text-light">students</a>
+    </nav>
+    <div class="jumbotron bg-secondary">
+        <h1>Contact Us</h1>
+        <p>We a located in kampala</p>
+    </div>
+    <div class="p-2">
+        <div class="row">
+            <form class="col-6">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="col-6">
+                <address>
+                    kalungi Road, Muyenga,
+                    <br>
+                    kampala, uganda <br>
+                    info@refactory.academy
+                    28888230-3833
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5642.404454902996!2d32.55760012410283!3d0.242949206486538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177d97c2f2dcde2f%3A0x71fef68fd3694d1d!2sJoint%20Clinical%20Research%20Centre!5e0!3m2!1sen!2sug!4v1743279730660!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </address>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light text-center p-2">
+        Copyright &copy; Gideon 2025
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
