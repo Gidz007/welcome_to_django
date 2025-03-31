@@ -45,5 +45,5 @@ def studentspage(request):
     return render(request, "students/allstudents.html")
 
 # Viewing a student's details.
-def viewstudents(request):
+def viewstudents(request, student_name):
     return render(request, "students/viewstudents.html")

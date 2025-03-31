@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from home.views import homepage, aboutpage, contactpage, productspage, leadershipage, studentspage,viewstudents
+from home.views import homepage, aboutpage, contactpage, productspage
+from home.views import leadershipage, studentspage,viewstudents
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +28,5 @@ urlpatterns = [
     path('products/', productspage),
     path('leadership/', leadershipage),
     path('students/', studentspage),
-    path('students/view', viewstudents)
+    path('students/<str:student_name>', viewstudents)
 ]
