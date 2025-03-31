@@ -1,0 +1,23 @@
+[33mcommit c722e69cdf47e97499f019c0f1f1ae163f0b895b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Orena Gideon <orenagedion2020@gmail.com>
+Date:   Mon Mar 31 06:11:07 2025 +0300
+
+    An up and runnig web site though no database is on coming soon
+
+[33mcommit 01af519e79913de4a9c09ddbed042ba6c60bfa07[m
+Author: Orena Gideon <orenagedion2020@gmail.com>
+Date:   Sun Mar 30 00:32:20 2025 +0300
+
+    jinja templating and abit of dynamic routing
+
+[33mcommit dbe5f1f0a7fabf5a67965fedd35c0df1bb345727[m
+Author: Orena Gideon <orenagedion2020@gmail.com>
+Date:   Fri Mar 28 02:38:34 2025 +0300
+
+    using a context as a dictonary to make changes on my html
+
+[33mcommit a0efa99b1de664f3e4c6af39bc3afda78b92be7c[m
+Author: Orena Gideon <orenagedion2020@gmail.com>
+Date:   Thu Mar 27 10:14:11 2025 +0300
+
+    django in progresse

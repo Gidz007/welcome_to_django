@@ -42,7 +42,19 @@ def leadershipage(request):
 
 # The studets list page.
 def studentspage(request):
-    return render(request, "students/allstudents.html")
+    students_name = "Ainembabazi Lucia"
+    age = 15
+    gender = "female"
+    course = "Javascript"
+    others = "c++"
+    context = {
+        'name': students_name,
+        'birth_date': age,
+        'personer': gender,
+        'study': course,
+        'alt': others
+    }
+    return render(request, "students/allstudents.html", context)
 
 # Viewing a student's details.
 def viewstudents(request, student_name):
